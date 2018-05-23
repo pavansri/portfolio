@@ -1,0 +1,52 @@
+
+body{	
+	background-color:white;
+
+}
+
+.i{
+display:grid;
+grid-template-columns:1fr 1fr;
+width:100%;
+
+}
+
+.wrapper{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+width:100%;
+
+}
+.billgates{border:2px solid;
+	background:white;
+	padding:10px;
+	border-radius:10px;
+	border-color:black;	
+	margin:10px;
+	width:auto;
+	}
+.elonmusk{border:2px solid;
+	background:white;
+	padding:10px;
+	border-radius:10px;
+	border-color:black;	
+	margin:10px;
+	width:auto;
+}
+.stevejobs{border:2px solid;
+	background:white;
+	padding:10px;
+	border-radius:10px;
+	border-color:black;	
+	margin:10px;
+	width:auto;
+}
+@media screen and (max-width:450px){
+.wrapper{grid-template-columns:1fr;
+		}
+}		
+h1{
+text-align:right;
+padding-bottom:2cm;
+}
+
